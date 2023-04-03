@@ -1,0 +1,9 @@
+Refer for instructions :-
+https://github.com/TomSchimansky/CustomTkinter/wiki/Packaging
+
+For .exe using pyinstaller
+pyinstaller --noconfirm --onedir --windowed --add-data "E:/Minor Project Sem VI/pythonProject/App_1_Windows/venv/Lib/site-packages/customtkinter;customtkinter/" --add-data "Assets;Assets" app.py
+
+Path changes to make
+e:\minor project sem vi\pythonproject\app_1_windows\venv\lib\site-packages
+E:/Minor Project Sem VI/pythonProject/App_1_Windows/venv/Lib/site-packages
